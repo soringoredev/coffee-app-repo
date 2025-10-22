@@ -8,8 +8,10 @@ public class DrinkCoffee {
         }
 
         // if for conc
-        if (coffee.getConc() > 55) {
+        else if (coffee.getConc() > 55) {
             throw new ConcentrationException(coffee.getConc(), "Concentratia cafelei e prea mare. O aruncam!");
+        } else {
+            System.out.println("Serviti cafeaua!");
         }
     }
 
