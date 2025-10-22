@@ -1,10 +1,10 @@
-public class ConcentartionException extends Exception {
+public class ConcentrationException extends Exception {
     // props
     int c;
 
     // constructor
 
-    public ConcentartionException(int c, String msg) {
+    public ConcentrationException(int c, String msg) {
         super(msg);
         this.c = c;
     }
@@ -12,7 +12,6 @@ public class ConcentartionException extends Exception {
     // getter
 
     public int getC() {
-
         return c;
     }
 }

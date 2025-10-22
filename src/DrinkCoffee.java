@@ -1,6 +1,6 @@
 public class DrinkCoffee {
 
-    void drinkCoffeee (Coffee coffee) {
+    void drinkCoffee (Coffee coffee) throws ConcentrationException, TemperatureException {
 
         // if for temp
         if(coffee.getTemp() > 65) {
