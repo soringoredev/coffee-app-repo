@@ -12,6 +12,7 @@ public class ConcentartionException extends Exception {
     // getter
 
     public int getC() {
+
         return c;
     }
 }
