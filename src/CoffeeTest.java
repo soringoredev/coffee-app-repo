@@ -6,19 +6,21 @@ public class CoffeeTest {
 
         for (int i = 0; i < 10; i++) {
             Coffee coffee = mk.makeCoffee();
-            System.out.println(" -------------- ");
-            System.out.println(" -------------- ");
+
             try {
                 d.drinkCoffee(coffee);
             } catch (TemperatureException e) {
-                System.out.println("Exception: " + e.getMessage() + "\ntemp: " + e.getT());
+                System.out.println("Exceptie T: " + e.getMessage() + "\ntemperatura: " + e.getT());
 
             } catch (ConcentrationException e) {
-                System.out.println("Exception: " + e.getMessage() + "\nconc: " + e.getC());
+                System.out.println("Exceptie C: " + e.getMessage() + "\nconcentratia: " + e.getC());
             }
             finally {
-                System.out.println("Throw the coffee");
+                System.out.println("Aparatul de cafea s-a oprit.");
             }
+
+            System.out.println(" -------------- ");
+            System.out.println(" -------------- ");
 
         }
 

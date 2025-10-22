@@ -20,8 +20,8 @@ public class Coffee {
 
     @Override
     public String toString() {
-        return "[coffee temperature = " + temp +
-                ": concentration = "    + conc +
+        return "[temperatura cafelei = " + temp +
+                ": concentratia = "      + conc +
                 "]";
     }
 }
